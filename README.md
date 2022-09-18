@@ -23,7 +23,7 @@ YM2203C Reg[$3A]=$01 at 21434412734
 The last decimal numbers are timestamp [ns].  
 
 You need to prepare the input data like above somehow.  
-One of the way is to use the ['Mutsu'](https://github.com/captainys/77AVEMU/tree/master/src), a Fujitsu FM-7 series personal computer emulator from captainYS.  
+One of the way is to use the ['Mutsu'](https://github.com/captainys/77AVEMU), a Fujitsu FM-7 series personal computer emulator from captainYS.  
 The Mutsu can dump FM sound device register access information with following command.  
 ```
 mon fmwrite
