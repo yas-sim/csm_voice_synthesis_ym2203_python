@@ -1,0 +1,3 @@
+[submodule "csm_enc_synth"]
+	path = csm_enc_synth
+	url = https://github.com/yas-sim/csm_voice_encode_synthesis_python.git

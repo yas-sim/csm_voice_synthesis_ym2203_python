@@ -71,3 +71,10 @@ YM2203C Reg[$27]=$30 at 23889684233  <= Reg27[7:6]=='00'
 YM2203C Reg[$28]=$02 at 23889747556
 YM2203C Reg[$2D]=$02 at 23889810324
 ```
+
+### Memo:  
+Convert audio data into mono/32Kbps wav format data.
+
+```sh
+ffmpeg\bin\ffmpeg.exe -i input.wav -ar 32000 -ac 1 -f wav "output.wav"
+```
